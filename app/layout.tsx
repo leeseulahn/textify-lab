@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import MoreTools from "@/components/MoreTools";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://textify-lab.vercel.app/"),
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
     title: "Textify Lab – Fancy Text Generator",
     description:
       "Generate stylish and fancy text instantly. Copy and paste for social media.",
-    url: "https://yourdomain.com",
+    url: "https://textify-lab.vercel.app/",
     siteName: "Textify Lab",
     locale: "en_US",
     type: "website",
@@ -44,9 +45,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
       <head>
@@ -56,7 +57,10 @@ export default function RootLayout({
           crossOrigin="anonymous"
         ></script>
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <MoreTools />
+      </body>
     </html>
   );
 }
