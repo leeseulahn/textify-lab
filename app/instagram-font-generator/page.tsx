@@ -32,6 +32,15 @@ export const metadata = {
             <li>Paste it into Instagram</li>
           </ol>
         </section>
+          <section style={{ marginTop: 40 }}>
+  <h3>More Tools</h3>
+  <ul>
+    <li><a href="/zalgo-text-generator">Zalgo Text Generator</a></li>
+    <li><a href="/fancy-text-generator">Fancy Text Generator</a></li>
+    <li><a href="/stylish-font-generator">Stylish Font Generator</a></li>
+    <li><a href="/bubble-text-generator">Bubble Text Generator</a></li>
+  </ul>
+</section>
       </main>
     );
   }
