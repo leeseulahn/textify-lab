@@ -1,16 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata = {
-  title: "Textify Lab",
-  description: "Fancy text generator tools",
-  verification: {
-    google: "UI4gjpct9CkHk5SAEn2Dyk1RaqgtAtGY36Dy6vPKr-4", // 여기 content 값만 넣기
-  },
-};
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://textify-lab.vercel.app/"),
 
   title: {
     default: "Textify Lab – Fancy Text Generator",
@@ -28,6 +20,10 @@ export const metadata: Metadata = {
     "instagram fonts",
     "weird text generator",
   ],
+
+  verification: {
+    google: "UI4gjpct9CkHk5SAEn2Dyk1RaqgtAtGY36Dy6vPKr-4",
+  },
 
   openGraph: {
     title: "Textify Lab – Fancy Text Generator",
@@ -54,8 +50,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8170455252781139"
-     crossorigin="anonymous"></script>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8170455252781139"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body>{children}</body>
     </html>
