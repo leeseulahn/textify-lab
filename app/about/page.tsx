@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "About",
   description: "About Textify Lab",
 };
