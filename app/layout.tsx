@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+export const metadata = {
+  title: "Textify Lab",
+  description: "Fancy text generator tools",
+  verification: {
+    google: "UI4gjpct9CkHk5SAEn2Dyk1RaqgtAtGY36Dy6vPKr-4", // 여기 content 값만 넣기
+  },
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://yourdomain.com"),
 
