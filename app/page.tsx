@@ -12,7 +12,7 @@ export default function Page() {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     name: "Textify Lab",
-    url: "https://yourdomain.com",
+    url: "https://textify-lab.vercel.app/",
     applicationCategory: "Utility",
     operatingSystem: "All",
     description:

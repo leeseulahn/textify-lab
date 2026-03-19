@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import MoreTools from "@/components/MoreTools";
+import GlobalAds from "@/components/GlobalAds";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://textify-lab.vercel.app/"),
@@ -59,6 +60,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <GlobalAds />
         <MoreTools />
       </body>
     </html>
