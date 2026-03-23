@@ -158,8 +158,8 @@ export default function Page() {
         </div>
       </section>
 
-
-      <section className="content-section">
+<section class="container">
+      <div className="content-section">
   <h2>About Textify Lab</h2>
   <p>
     Textify Lab is a free fancy text generator that helps you turn normal text
@@ -172,9 +172,9 @@ export default function Page() {
     style to captions, or create more eye-catching posts. This tool is designed
     to make that process quick and simple without installing any app.
   </p>
-</section>
+</div>
 
-<section className="content-section">
+<div className="content-section container ">
   <h2>How to use fancy text</h2>
   <p>
     Enter your text in the input box and browse the generated styles below.
@@ -185,18 +185,18 @@ export default function Page() {
     Fancy text works especially well for Instagram bios, TikTok nicknames,
     Discord usernames, gaming profiles, and short decorative messages.
   </p>
-</section>
+</div>
 
-<section className="content-section">
+<div className="content-section">
   <h2>Why text styles look different</h2>
   <p>
     Most fancy text generators use Unicode characters that resemble standard
     letters. Because of that, appearance can vary slightly depending on the
     device, operating system, app, and font rendering engine.
   </p>
-</section>
+</div>
 
-<section className="content-section">
+<div className="content-section">
   <h2>Popular uses for stylish text</h2>
   <ul>
     <li>Instagram bio text</li>
@@ -205,8 +205,8 @@ export default function Page() {
     <li>YouTube channel descriptions</li>
     <li>Aesthetic captions and posts</li>
   </ul>
+</div>
 </section>
-
       
       <section id="results" className="container results-section">
         <div className="section-head">
