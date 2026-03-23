@@ -158,6 +158,56 @@ export default function Page() {
         </div>
       </section>
 
+
+      <section className="content-section">
+  <h2>About Textify Lab</h2>
+  <p>
+    Textify Lab is a free fancy text generator that helps you turn normal text
+    into stylish Unicode text for social media, profiles, captions, and chat
+    apps. You can type any word or sentence and instantly copy multiple text
+    styles for Instagram, TikTok, Discord, YouTube, and more.
+  </p>
+  <p>
+    Many people use fancy text to make usernames stand out, decorate bios, add
+    style to captions, or create more eye-catching posts. This tool is designed
+    to make that process quick and simple without installing any app.
+  </p>
+</section>
+
+<section className="content-section">
+  <h2>How to use fancy text</h2>
+  <p>
+    Enter your text in the input box and browse the generated styles below.
+    When you find a style you like, click copy and paste it into your social
+    media profile, comment, message, or post.
+  </p>
+  <p>
+    Fancy text works especially well for Instagram bios, TikTok nicknames,
+    Discord usernames, gaming profiles, and short decorative messages.
+  </p>
+</section>
+
+<section className="content-section">
+  <h2>Why text styles look different</h2>
+  <p>
+    Most fancy text generators use Unicode characters that resemble standard
+    letters. Because of that, appearance can vary slightly depending on the
+    device, operating system, app, and font rendering engine.
+  </p>
+</section>
+
+<section className="content-section">
+  <h2>Popular uses for stylish text</h2>
+  <ul>
+    <li>Instagram bio text</li>
+    <li>TikTok display names</li>
+    <li>Discord nicknames</li>
+    <li>YouTube channel descriptions</li>
+    <li>Aesthetic captions and posts</li>
+  </ul>
+</section>
+
+      
       <section id="results" className="container results-section">
         <div className="section-head">
           <div>
