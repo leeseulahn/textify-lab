@@ -158,7 +158,7 @@ export default function Page() {
         </div>
       </section>
 
-<section class="container">
+<section class="container" style="margin-top: 80px;">
       <div className="content-section">
   <h2>About Textify Lab</h2>
   <p>
@@ -208,7 +208,7 @@ export default function Page() {
 </div>
 </section>
       
-      <section id="results" className="container results-section">
+      <section id="results" className="container results-section" style="margin-top: 80px;">
         <div className="section-head">
           <div>
             <h3>변환 결과</h3>
